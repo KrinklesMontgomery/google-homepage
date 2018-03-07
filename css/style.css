@@ -1,0 +1,42 @@
+body {
+	display: grid;
+	grid-template-rows: auto auto auto;
+	grid-template-columns: auto auto auto;
+}
+
+.logo {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	justify-self: center;
+}	
+
+.input {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	width: 300px;
+	justify-self: center;
+	
+}
+
+.search {
+	justify-self: right;
+}
+
+.lucky {
+	justify-self: left;
+}
+
+.main {
+	display: grid;
+	grid-template-rows: auto auto auto;
+	grid-template-columns: auto auto;
+}
+
+.foot {
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	height: 30px;
+	width: 100%;
+	background-color: gray;
+}
