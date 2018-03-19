@@ -1,8 +1,16 @@
-.main {
-	height: 233px;
-	margin-top: 89px;
+.logo {
+ 	text-align: center; 
+	display: block;
+	margin: 0 auto;
+	clear: both;
+	padding-top: 112px;
+	padding-bottom: 20px;
 }
 
-.logo {
-	padding-top: 109px;
+.input {
+	width: 450px;
+	line-height: 32px;
+	padding: 0px 8px;
+	display: block;
+	margin: 0 auto;
 }
