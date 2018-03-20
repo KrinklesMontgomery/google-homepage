@@ -19,3 +19,15 @@
 	padding-top: 30px;
 	margin-bottom: 300px;
 }
+
+.lucky, .submit {
+	color: #757575;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	height: 36px;
+	line-height: 27px;
+	background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
+	min-width: 54px;
+
+}
