@@ -1,5 +1,4 @@
 .logo {
- 	text-align: center; 
 	display: block;
 	margin: 0 auto;
 	clear: both;
@@ -13,4 +12,10 @@
 	padding: 0px 8px;
 	display: block;
 	margin: 0 auto;
+}
+
+.buttons {
+	text-align: center;
+	padding-top: 30px;
+	margin-bottom: 300px;
 }
