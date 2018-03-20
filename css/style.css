@@ -1,3 +1,22 @@
+ul {
+	list-style-type: none;
+	overflow: hidden;
+}
+
+li {
+	float: right;
+	padding: 8px;
+}
+
+.about {
+	float: left;
+}
+
+.store {
+	float: left;
+}
+
+
 .logo {
 	display: block;
 	margin: 0 auto;
