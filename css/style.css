@@ -1,6 +1,35 @@
-ul {
-	list-style-type: none;
-	overflow: hidden;
+a:link, a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.first_bar {
+	font-family: 'arial';
+	font-size: 13px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.last_bar {
+	font-family: 'arial';
+	font-size: 13px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	background-color: #f3f3f3;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.apps {
+	background-image: url('../resources/google_apps_logo.png');
+	height: 30px;
+	width: 30px;
 }
 
 li {
@@ -8,14 +37,9 @@ li {
 	padding: 8px;
 }
 
-.about {
+.about, .store, .advertising, .business {
 	float: left;
 }
-
-.store {
-	float: left;
-}
-
 
 .logo {
 	display: block;
