@@ -7,9 +7,25 @@ a:hover {
 	text-decoration: underline;
 }
 
+.sign_in_button {
+	background: -webkit-linear-gradient(top, #4387fd, #4683ea);
+	border: 1px solid #4285f4;
+	outline: none;
+	font-weight: bold;
+	color: #fff;
+	line-height: 28px;
+	padding: 0 12px;
+	border-radius: 2px;
+}
+
+.sign_in {
+	padding-top: 2px;
+}
+
 .first_bar {
 	font-family: 'arial';
 	font-size: 13px;
+	padding-top: 12px;
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -26,15 +42,21 @@ a:hover {
 	width: 100%;
 }
 
-.apps {
-	background-image: url('../resources/google_apps_logo.png');
-	height: 30px;
-	width: 30px;
-}
-
 li {
 	float: right;
 	padding: 8px;
+=}
+
+a {
+	line-height: 20px;
+	vertical-align: bottom;
+}	
+
+.apps_logo {
+	display: inline-block;
+	box-sizing: border-box;
+	height: 20px;
+	width: 20px;
 }
 
 .about, .store, .advertising, .business {
