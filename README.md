@@ -7,6 +7,7 @@ TODO
 // Add shader to search bar
 // Give search bar text proper formatting
 // Change scaling options (right now is always 100%)
+// Change sign in button to be clickable
 
 ???
 // Attempt to return a search results page?
