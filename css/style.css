@@ -41,7 +41,8 @@ body {
 	bottom: 0px;
 	height: 40px;
 	width: 100%;
-	background-color: gray;
+	background-color: #f0f0f5;
+	border-top: 1px solid #e0e0eb;
 }
 
 .foot-left-list {	
@@ -58,4 +59,18 @@ body {
 	display: inline;
 	margin: 12px;
 	font-size: 15px;
+}
+
+.foot-list-anchor {
+	text-decoration: none;
+	color: #29293d;
+	
+}
+
+.foot-list-anchor:hover {
+	text-decoration: underline;
+}
+
+.foot-list-anchor:visited {
+	color: #29293d;
 }
