@@ -33,10 +33,29 @@ body {
 }
 
 .foot {
+	display: flex;
+	align-items: center;
+	align-content: space-evenly;
 	position: fixed;
 	left: 0px;
 	bottom: 0px;
-	height: 30px;
+	height: 40px;
 	width: 100%;
 	background-color: gray;
+}
+
+.foot-left-list {	
+	position: fixed;
+	left: 20px;
+}
+
+.foot-right-list {
+	position: fixed;
+	right: 20px;
+}
+
+.foot-list-item {
+	display: inline;
+	margin: 12px;
+	font-size: 15px;
 }
