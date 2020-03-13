@@ -53,11 +53,7 @@
 }
 
 .foot {
-	display: flex;
-	align-items: center;
-	align-content: space-evenly;
 	position: fixed;
-	left: 0px;
 	bottom: 0px;
 	height: 40px;
 	width: 100%;
@@ -77,7 +73,7 @@
 
 .foot-list-item {
 	display: inline-block;
-	margin: 12px;
+	padding: 12px;
 	font-size: 15px;
 }
 
