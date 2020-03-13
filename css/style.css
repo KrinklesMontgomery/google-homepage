@@ -5,16 +5,32 @@
 	height: 60px;
 }
 
+.head-left-list {
+	padding: 20px;
+}
+
+.head-right-list {
+	padding: 20px;
+}
+
 .head-list-item {
-	padding: 8px;
+	padding: 6px;
 	display: inline-block;
 	font-size: 14px;
+	vertical-align: middle;
 }
 
 .head-list-apps-icon {
 	height: 25px;
 	width: 25px;
 	opacity: 0.5;
+	vertical-align: middle;
+}
+
+.head-list-user-icon {
+	margin: 2px;
+	padding: 2px;
+	border-radius: 25px;
 	vertical-align: middle;
 }
 
